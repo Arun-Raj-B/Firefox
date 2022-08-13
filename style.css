@@ -1,0 +1,518 @@
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-links
+{
+    position: absolute;
+    top: 0px;
+    left: 227px;
+    font-family: Microsoft Sans Serif;
+    font-size: 18px;
+    border-spacing: 23px
+}
+
+.nav
+{
+    width: 100%;
+    height: 64px;
+    background: white;
+    box-shadow: 0px 3px rgba(203, 203, 203, 0.385);
+    position:relative;
+}
+
+#logo
+{
+    position: absolute;
+    width: 117px;
+    top: 16px;
+    left: 95px;
+}
+
+#adjust-logo
+{
+    position: absolute;
+    height: 28px;
+    top: 12px;
+    left: 82px;
+}
+
+#adjust-fire
+{
+    position: absolute;
+    height: 28px;
+    top: 2px;
+    left: 122px;
+}
+
+.nav-button
+{
+    position: absolute;
+    width: 156px;
+    height: 35px;
+    top: 15px;
+    left: 1282px;
+    background: none;
+    border-color: #0060df;
+    color: #0060df;
+    border-radius: 5px;
+}
+
+.FAQ
+{
+    width: 100%;
+    height: 52px;
+    background: #f8f8f8;
+    font-family: Microsoft Sans Serif;
+    position: relative;
+    top: 2px;
+}
+
+.right-faq
+{
+    font-family: Inter,X-LocaleSpecific,sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: -8px;
+    left: 1300px;
+    border-spacing: 23px;
+}
+
+.content
+{
+    width: 100%;
+    height: 100%;
+
+}
+
+.align-first
+{
+    position: absolute;
+    top: 136px;
+    right: -1px;
+}
+
+.font-main
+{
+    color: #20123a;
+    font-family: Metropolis,Inter,X-LocaleSpecific,sans-serif;
+    font-size: 61px;
+    position: absolute;
+    top: 226px;
+    left: 20px;
+}
+
+.align-center
+{
+    position: absolute;
+    margin: 0;
+    top: 673px;
+    left: 502px;
+    font-size: 39px;
+    font-family: Metropolis,Inter,X-LocaleSpecific,sans-serif;
+}
+
+.icons-center
+{
+    position: absolute;
+    top: 692px;
+    left: 336px;
+    border-spacing: 94px
+}
+
+.spacing-name
+{
+    position: absolute;
+    top: 692px;
+    left: 336px;
+    border-spacing: 94px 
+}
+
+.flexing
+{
+    display: flex;
+    justify-content:center;
+    gap: 95px;
+}
+
+#for-margin
+{
+    margin-top: 679px;
+}
+
+.column-align
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.font-logo
+{
+    font-family: Metropolis,Inter,X-LocaleSpecific,sans-serif;
+}
+
+.align-firefox
+{
+    position: absolute;
+    height: 54px;
+    top: 1200px;
+    left: 92px;
+}
+
+.align-fb
+{
+    position: absolute;
+    top: 1188px;
+    left: 153px;
+    width: 222px;
+    font-size: 25px;
+    font-family: Metropolis,Inter,X-LocaleSpecific,sans-serif;
+}
+
+.align-2000
+{
+    position: absolute;
+    top: 1264px;
+    left: 96px;
+    font-size: 34px;
+    font-family: Metropolis,Inter,X-LocaleSpecific,sans-serif;
+}
+
+.align-img2
+{
+    position: absolute;
+    top: 1089px;
+    right: 88px;
+}
+
+.pos-select
+{
+    position: absolute;
+    top: 1432px;
+    left: 96px;
+}
+
+.design-input
+{
+    width: 561px;
+    height: 38px;
+    border-radius: 8px;
+    border-color: #0060df;
+    border-width: medium;
+}
+
+select
+{
+    font-family: Metropolis,Inter,X-LocaleSpecific,sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.get-fb
+{
+    position: absolute;
+    top: 1479px;
+    left: 102px;
+    font-family: Metropolis,Inter,X-LocaleSpecific,sans-serif;
+    font-size: 16px;
+    color: #0060df;
+}
+
+.align-img3
+{
+    position: absolute;
+    top: 1798px;
+    left: 165px;
+}
+
+.align-knowwhen
+{
+    position: absolute;
+    top: 1872px;
+    left: 696px;
+    font-size: 34px;
+    font-family: Metropolis,Inter,X-LocaleSpecific,sans-serif;
+}
+
+.align-fmonitor
+{
+    position: absolute;
+    height: 54px;
+    top: 1816px;
+    left: 690px;
+}
+
+.align-mr
+{
+    position: absolute;
+    top: 1805px;
+    right: 546px;
+    width: 222px;
+    font-size: 25px;
+    font-family: Metropolis,Inter,X-LocaleSpecific,sans-serif;
+}
+
+.get-monitor
+{
+    position: absolute;
+    top: 1998px;
+    left: 697px;
+    font-family: Metropolis,Inter,X-LocaleSpecific,sans-serif;
+    font-size: 16px;
+    color: #0060df;
+}
+
+.main1
+{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.single-hereon
+{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+
+.single-hereon2
+{
+    position: absolute;
+    width: 100%;
+    top: 476px;
+    left: -586px;
+}
+
+.align-img4
+{
+    position: absolute;
+    top: 2241px;
+    left: 915px;
+}
+
+.single-hereon3
+{
+    position: absolute;
+    width: 100%;
+    top: 1423px;
+    left: -500px;
+}
+
+.get-VPN
+{
+    position: absolute;
+    top: 1963px;
+    left: 697px;
+    font-family: Metropolis,Inter,X-LocaleSpecific,sans-serif;
+    font-size: 16px;
+    color: #0060df;
+}
+
+.align-img5
+{
+    position: absolute;
+    top: 3213px;
+    left: 915px;
+}
+
+.single-hereon4
+{
+    position: absolute;
+    width: 100%;
+    top: 1970px;
+    left: 57px;
+}
+
+.align-img7
+{
+    position: absolute;
+    top: 3686px;
+    left: 100px;
+}
+
+.violet-bar
+{
+    position: absolute;
+    top: 4250px;
+    width: 100%;
+    height: 418px;
+    background-color: #291351;
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.137),rgb(0 0 0 / 60%))
+}
+
+.flexing2
+{
+    position: absolute;
+    top: 82px;
+    left: 530px;
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+}
+
+.one-login
+{
+    font-family: Metropolis,Inter,X-LocaleSpecific,sans-serif;
+    color: white;
+    position: absolute;
+    top: 190px;
+    left: 456px;
+    font-size: 16px;
+}
+
+.last-button
+{
+    border-radius: 5px;
+    position: absolute;
+    top: 348px;
+    left: 689px;
+    width: 164px;
+    height: 31px;
+    background: #097fe4;
+    color: white;
+    border: none
+}
+
+.violet-bar1
+{
+    width: 100%;
+    position: absolute;
+    height: 500px;
+    top: 2603px;
+    background: #571dc4;
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.137),rgb(0 0 0 / 60%))
+}
+
+.align-respect
+{
+    position: absolute;
+
+}
+
+.single-hereonfirst
+{
+    position: absolute;
+    width: 100%;
+    top: -1670px;
+    left: -90px;
+}
+
+.align-knowwhen1
+{
+    position: absolute;
+    top: 1872px;
+    left: 696px;
+    font-size: 34px;
+    color: white;
+    font-family: Metropolis,Inter,X-LocaleSpecific,sans-serif;
+}
+
+.parent
+{ 
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 111px;
+    left: -2px;
+    justify-content: space-evenly;
+
+}
+
+.grandparent
+{
+    position: relative;
+    width: 100%;
+    height: 678px;
+    top: 3771px;
+    background: rgb(255, 255, 255);
+}
+
+.block
+{
+    position: absolute;
+    width: 100px;
+    top: -40px;
+    left: 137px;
+}
+
+.listcolor
+{
+        color: black;
+        list-style: none;
+        padding: 0;
+}
+
+.alignlist1
+{
+   
+    top: 170px;
+    left: 93px;
+    line-height: 2.2;
+    letter-spacing:  1px;;
+    font-family: Inter,
+        X-LocaleSpecific,
+        sans-serif;
+}
+
+.bar {
+    width: 95vw;
+    height: 1px;
+    position: absolute;
+    top: 5127px;
+    left: 25px;
+    background: rgb(47, 47, 47);
+}
+
+.bar-table
+{
+    border-spacing: 14px;
+    font-family: Inter, X-LocaleSpecific, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 5136px;
+    left: 20px;
+}
+
+.down {
+    font-family: Inter, X-LocaleSpecific, sans-serif;
+    position: absolute;
+    font-size: 12px;
+    top: 5186px;
+    left: 35px;
+}
+
+.last-box
+{
+    font-family: Inter, X-LocaleSpecific, sans-serif;
+    position: absolute;
+    font-size: 15px;
+    top: 5152px;
+    left: 1304px;
+
+}
+
+.lang-len
+{
+    width: 168px;
+    height: 31px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: Inter, X-LocaleSpecific, sans-serif;
+}
+
